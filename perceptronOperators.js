@@ -20,6 +20,7 @@ for (const arr in testExamples) {
     prediction((testExamples[arr][0] * weight1) + (testExamples[arr][1] * weight2) + bias)
 }
 
+console.log("---- DONE PREDICTION -----")
 
 // OR PERCEPTRON
 
@@ -35,7 +36,6 @@ let testExamples1Weight2 = 10;
 let testExamples1Bias = 0;
 
 
-console.log("---- DONE PREDICTION -----")
 
 for (const arr in testExamples1) {
     prediction((testExamples1[arr][0] * testExamples1Weight1) + (testExamples1[arr][1] * testExamples1Weight2) + testExamples1Bias)
